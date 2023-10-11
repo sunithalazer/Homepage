@@ -1,0 +1,32 @@
+* {
+  box-sizing : border-box;
+}
+.head {
+  border: solid 1px black;
+  width : 33.3%;
+  height: 81px;
+  justify-content: space-around;
+  float: left;
+}
+.App .head.logo {
+  width: 216px;
+}
+.head.list {
+  width: 63%;
+  border: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head.button {
+  font-size: 18px;
+  line-height: 56px;
+  border-radius: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+}
